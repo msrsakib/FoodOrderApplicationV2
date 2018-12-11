@@ -2,8 +2,8 @@
 Project for varsity course | Course code CSE-332 
 
 # Requirement 
-Minimum : API level 23
-Android version : Marshmellow
+-Minimum : API level 23
+-Android version : Marshmellow
 
 # Features
 1. User Sign Up
