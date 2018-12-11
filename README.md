@@ -6,26 +6,25 @@ Minimum : API level 23
 Android version : Marshmellow
 
 # Features
--> User Sign Up
--> User Sign In
--> Colorful Buttons
--> 15 Bangla food items
--> Checking the food
--> "Place Order"Button
--> Item details after ordering
--> Total price details in BDT
--> Total price details in USD
--> Direct Call feature
--> Sending SMS using defauld message Application
+1. User Sign Up
+2. User Sign In
+3. Colorful Buttons
+4. 15 Bangla food items
+5. Checking the food
+6. "Place Order"Button
+7. Item details after ordering
+8. Total price details in BDT
+9. Total price details in USD
+10. Direct Call feature
+11. Sending SMS using defauld message Application
 
 # New Features Added
--> User Sign In
--> User Sign Up
--> Colorful Buttons
+1. User Sign In
+2. User Sign Up
+3 Colorful Buttons
 
 
 # Limitations 
-1. Demo Application
-2. Offline Application
-3. Need to do permission manually for making Call.
+1. Offline Application
+2. Need to do permission manually for making Call.
  
