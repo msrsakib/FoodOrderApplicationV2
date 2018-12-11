@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:textSize="20sp"
+            android:text="User Name"
+            android:textStyle="bold"
+            android:textColor="#1b1b1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/usernameedittextid"
+            android:textSize="20sp"
+            android:textColor="#100f0f"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20sp"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="#121111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/passwordedittextid"
+            android:textSize="20sp"
+            android:textColor="#060606"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#dc2ca1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sginid"
+        android:text="Sign in"
+        android:textColor="#130be7"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="#efef0e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sgupid"
+        android:textColor="#130be7"
+        android:text="Sign up for Register"
+        android:textSize="20sp"/>
+
+</LinearLayout>
